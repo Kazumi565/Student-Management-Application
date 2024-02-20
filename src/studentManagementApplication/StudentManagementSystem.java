@@ -119,8 +119,7 @@ public class StudentManagementSystem {
 
         System.out.print("Enter student's email: ");
         String email = scanner.nextLine();
-
-        // You may want to handle date parsing more robustly in a real-world scenario
+        
         System.out.print("Enter student's enrollment date (yyyy-MM-dd): ");
         String enrollmentDateStr = scanner.nextLine();
         LocalDate enrollmentDate = LocalDate.parse(enrollmentDateStr);
@@ -181,7 +180,7 @@ public class StudentManagementSystem {
                 System.out.println("No enrolled students in this faculty.");
             }
 
-            System.out.println(); // Add a newline between faculties
+            System.out.println();
         }
     }
 
@@ -200,7 +199,7 @@ public class StudentManagementSystem {
                 System.out.println("No graduates in this faculty.");
             }
 
-            System.out.println(); // Add a newline between faculties
+            System.out.println();
         }
     }
 
